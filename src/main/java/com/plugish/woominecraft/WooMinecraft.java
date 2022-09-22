@@ -47,7 +47,7 @@ public final class WooMinecraft extends JavaPlugin {
 	public void onEnable() {
 		instance = this;
 
-		if (
+		/*if (
 			!Bukkit.getOnlineMode() &&
 			!Bukkit.spigot().getConfig().getBoolean("settings.bungeecord")
 		) {
@@ -55,7 +55,7 @@ public final class WooMinecraft extends JavaPlugin {
 			getLogger().severe("WooMinecraft doesn't support offLine mode");
 			Bukkit.getPluginManager().disablePlugin(this);
 			return;
-		}
+		}*/
 
 		YamlConfiguration config = (YamlConfiguration) getConfig();
 		// Save the default config.yml
