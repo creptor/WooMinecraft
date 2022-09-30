@@ -379,6 +379,7 @@ public final class WooMinecraft extends JavaPlugin {
 		//Disable check for paid users
 		return true;
 		
+		/*
 		String playerName = player.getName();
 		String playerUUID = player.getUniqueId().toString().replace( "-", "" );
 		String playerKeyBase = playerName + ':' + playerUUID + ':';
@@ -449,5 +450,6 @@ public final class WooMinecraft extends JavaPlugin {
 
 		// Default to false, worst case they have to run this twice.
 		return false;
+		*/
 	}
 }
