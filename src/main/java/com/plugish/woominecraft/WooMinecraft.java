@@ -375,6 +375,10 @@ public final class WooMinecraft extends JavaPlugin {
 	 * @return If the user is a paid player.
 	 */
 	private boolean isPaidUser(Player player) {
+		
+		//Disable check for paid users
+		return true
+		
 		String playerName = player.getName();
 		String playerUUID = player.getUniqueId().toString().replace( "-", "" );
 		String playerKeyBase = playerName + ':' + playerUUID + ':';
